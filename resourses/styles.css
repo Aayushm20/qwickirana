@@ -1,0 +1,69 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  nav h3{
+    
+      color: white;
+  }
+  
+  .container{
+    /* display: flex; */
+    height: auto;
+    width: auto;
+    /* background-image: url("https://c.static-nike.com/a/images/w_1920,c_limit/bzl2wmsfh7kgdkufrrjq/image.jpg"); */
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    /* align-items: center; */
+    background-color: green;
+    
+    color: white;
+    margin-top: 20px;
+    line-height: 30px;
+    padding: 10px;    
+    
+  }
+
+  .container2{
+      border: 1px solid black;
+      width: 960px;
+      height: auto;
+      margin: 0 auto;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: green;
+      color: white;
+  }
+  .container2 figure img{
+
+      display: flex;
+      height: 300px;
+      width: 400px;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+      border: 10px solid white;
+      margin-top: 20px;
+  }
+  .container2 figure figcaption{
+      text-align: center;
+      
+  }
+
+  .container .loc1 p{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin: 0 auto; */
+    /* color: teal; */
+    align-self: flex-end;
+}
+.container h1{
+    text-align: center;
+}
+  @media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+  }
